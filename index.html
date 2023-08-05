@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Picker</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Welcome to Password Picker!</h1>
-    <p> 
-        Password Picker will enable you to create strong passwords by
-        combining words, numbers, and characters. When you run the program,
-        it will create a new password and show it on the screen. 
-        You can ask it to keep creating new passwords until you find one you like.
+    <p>
+      Password Picker will enable you to create strong passwords by combining
+      words, numbers, and characters. When you run the program, it will create a
+      new password and show it on the screen. You can ask it to keep creating
+      new passwords until you find one you like.
     </p>
     <div>
-        <h2>Your Password :</h2>
+      <h2>Your Password :</h2>
     </div>
-    <div class="password-container" id="passwordContainer">
+    <div>
+      <div class="password-container" id="passwordContainer">
         <!-- Generated Password Will Be Displayed Here!-->
+      </div>
     </div>
-
-    <button class="generate-btn" onclick="generatePassword()">
+    <div class="generate-btn-container">
+      <button class="generate-btn" onclick="generatePassword()">
         Genearte Password
-    </button>
+      </button>
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
